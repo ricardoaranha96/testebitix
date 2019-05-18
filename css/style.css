@@ -1,0 +1,26 @@
+#form-plano[data-price-loaded="n"] #send-form,
+#form-plano[data-plano-valido="n"] #send-form{
+    display: none;
+}
+
+#form-plano{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+section{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+section:first-child{
+    margin-top: 0;
+}
+
+section:last-child{
+    margin-bottom: 0;
+}
+
+#form-plano[data-count-dependents="1"] #table-dependents tr:first-child [data-toggle="remove-dependent"]{
+    display: none;
+}
